@@ -8,3 +8,4 @@ Goal: recreate the google-homepage
 Outcomes: 
 -familiarize with the fundamentals of HTML/CSS
 -familiarize with Chrome Developer Tools
+-familiarize with githup and git commands
