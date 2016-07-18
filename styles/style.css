@@ -1,0 +1,26 @@
+body{
+	font-size: small;
+	font-family: arial, sans-serif;
+}
+
+
+.google_profile_nav {
+	position: fixed;
+	top:0;
+	right:0;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+li {
+	float:right;
+	display: block;
+	padding: 0 0 0 18px;
+}
