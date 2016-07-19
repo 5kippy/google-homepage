@@ -6,35 +6,39 @@
 		<title>Google Homepage</title>
 	</head>
 	<body>
-		<div class='google_profile_nav'> 
+		<div class="google_profile_nav"> 
 			<ul>
-				<li id='mail'> <a href=""> Mail </a> </li>
-				<li id='images'> <a href=""> Images </a> </li>
-				<li id='apps'> <img src=""> </li>
-				<li id='notifications'> <a href=""></a> </li>
-				<li id='signin'> <a href="">Sign In</a> </li>
+				<li> <a href="" id="signin">Sign in</a></li>
+				<li id="notification"> <img src="images/notification.png" alt="notifications"> </li>
+				<li id="apps"> <img src="images/apps.png" alt="applications"> </li>
+				<li> <a href="">Images</a></li>
+				<li> <a href="">Gmail</a></li>
 			</ul>
 		</div>
-		<div class='main_content'>
-			<img src="images/Google_2015_logo.png" alt="Google">
-			<div class='search'>
-				<input id='searchbox' type="text" name="searchbox">	
-				<button class='search_options'> Google Search </button>	
-				<button class='search_options'> I'm Feeling Lucky </button>	
-			</div>
-			<p> Google.ca offered in: <a href=""> Francais </a> </p>
+
+		<div class="main_content"><img id="google_logo" src="images/Google_2015_logo.png" alt="Google"></div>
+
+		<div class="main_content"><input id="searchbox" type="text" name="searchbox"></div>
+
+		<div class="main_content" id="search_options">
+			<button> Google Search </button>	
+			<button> I'm Feeling Lucky </button>	
 		</div>
-		<div class='footer'>
-		 <ul class='google_info'>
-		 	<li id='advertising'> <a href="">Advertising</a></li>
-		 	<li id='business'> <a href="">Business</a></li>
-		 	<li id='about'> <a href="">About</a></li>
+
+		<p class="main_content"> Google.ca offered in: <a id="language_option" href=""> Francais </a> </p>
+
+		<div class="footer">
+		 <ul class="google_info">
+		 	<li id="advertising"> <a href="">Advertising</a></li>
+		 	<li id="business"> <a href="">Business</a></li>
+		 	<li id="about"> <a href="">About</a></li>
 		 </ul>
-		 <ul class='google_settings'>
-		 	<li id='settings'> <a href="">Settings</a></li>
-		 	<li id='terms'> <a href="">Terms</a></li>
-		 	<li id='privacy'> <a href="">Privacy</a></li>
+		 <ul class="google_settings">
+		 	<li id="settings"> <a href="">Settings</a></li>
+		 	<li id="terms"> <a href="">Terms</a></li>
+		 	<li id="privacy"> <a href="">Privacy</a></li>
 		 </ul>
 		</div>
+
 	</body>
 </html>

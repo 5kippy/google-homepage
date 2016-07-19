@@ -1,17 +1,17 @@
 body{
 	font-size: small;
+	margin: 0;
 	font-family: arial, sans-serif;
 }
 
-
-.google_profile_nav {
-	position: fixed;
-	top:0;
-	right:0;
-
+div{
+	display: block;
 }
 
+
 a {
+	color: black;
+	font-weight: lighter;
 	text-decoration: none;
 }
 
@@ -21,6 +21,58 @@ a:hover{
 
 li {
 	float:right;
+	display: inline-block;
+	padding: 7px 15px;
+}
+
+.google_profile_nav {
+	position: static;
+	right:20px;
+	padding-bottom: 100px;
+}
+#signin{
+	padding: 7px 15px;
+	background-color: rgba(63, 127, 191, 0.3);
+}
+
+.main_content{
+	position: relative;
 	display: block;
-	padding: 0 0 0 18px;
+	text-align: center;
+}
+#google_logo{
+	display: block;
+	padding-top: 100px;
+	padding-bottom: 20px;
+	background-size: 272px 92px;
+	height: 92px;
+	width: 272px;
+	margin: 0 auto;
+}
+#searchbox{
+	display: block;
+	height: 30px;
+	width: 50%;
+	margin: 0 auto;
+}
+#search_options{
+	padding-top: 20px;
+	font-size: larger;
+}
+#language_option{
+	color:blue;
+}
+
+.footer{
+	position: absolute;
+	bottom: 0;
+	height: 40px;
+	border-top: 1px solid #E4E4E4;
+	background-color: #f2f2f2;
+	width: 100%;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.google_info{
+	float: left;
 }
